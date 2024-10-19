@@ -1,0 +1,8 @@
+{
+	"default": [
+		{
+			"module": "@jael/aws_secrets_manager",
+			"SecretId": "prod/MyTest"
+		}
+	]
+}

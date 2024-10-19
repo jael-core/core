@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES2022",
+		"noImplicitAny": true,
+		"preserveConstEnums": true,
+		"sourceMap": false,
+		"outDir": "./dist",
+		"rootDir": "./src",
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"skipLibCheck": true
+	},
+	"ts-node": {
+		"esm": false,
+		"transpileOnly": true
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules", "**/*.spec.ts"]
+}
