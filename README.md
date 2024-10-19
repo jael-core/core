@@ -7,13 +7,13 @@ I built this project as a way to load env variables from AWS Secrets Manager. I 
 Install
 
 ```sh
-npm install @jael/core --save
+npm install @jael-env/core --save
 ```
 
 The core by itself is just an inject. We need one of the modules to do the actual loading of the envs to inject. Currently there is only an Aws Secrets Manager module
 
 ```sh
-npm install @jael/aws_secrets_manager --save
+npm install @jael-env/aws_secrets_manager --save
 ```
 
 Create your config at root of project - currently only have the aws_secrets_manager loader
@@ -23,7 +23,7 @@ Create your config at root of project - currently only have the aws_secrets_mana
 {
 	"default": [
 		{
-			"module": "@jael/aws_secrets_manager",
+			"module": "@jael-env/aws_secrets_manager",
 			"SecretId": "myAwsSecretId"
 		}
 	]
@@ -37,17 +37,17 @@ Your config can have muliple profiles or even load muliple sources and inject th
 {
 	"default": [
 		{
-			"module": "@jael/aws_secrets_manager",
+			"module": "@jael-env/aws_secrets_manager",
 			"SecretId": "myAwsSecretId"
 		}
 	],
 	"aws": [
 		{
-			"module": "@jael/aws_secrets_manager",
+			"module": "@jael-env/aws_secrets_manager",
 			"SecretId": "myAwsSecretId"
 		},
 		{
-			"module": "@jael/aws_secrets_manager",
+			"module": "@jael-env/aws_secrets_manager",
 			"SecretId": "secret2"
 		}
 	]
