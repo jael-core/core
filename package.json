@@ -1,16 +1,16 @@
 {
 	"version": "0.0.1",
-	"name": "@jael/core",
+	"name": "@jael-env/core",
 	"description": "Just another env loader",
 	"author": "Sean Moser",
 	"keywords": [
 		"jael",
 		"env"
 	],
-	"homepage": "https://github.com/jael-core/",
+	"homepage": "https://github.com/jael-env/",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/jael-core/core.git"
+		"url": "git+https://github.com/jael-env/core.git"
 	},
 	"license": "BSD-3-Clause",
 	"files": [
