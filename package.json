@@ -1,5 +1,5 @@
 {
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"name": "@jael-env/core",
 	"description": "Just another env loader",
 	"author": "Sean Moser",
@@ -14,7 +14,7 @@
 	},
 	"license": "BSD-3-Clause",
 	"files": [
-		"src/**/*",
+		"dist/**/*",
 		"CHANGELOG.md"
 	],
 	"bin": {
@@ -35,8 +35,8 @@
 		"typescript": "^5.6.3"
 	},
 	"optionalDependencies": {
-		"@jael/aws_secrets_manager": "^0.0.1",
-		"@jael/env": "^0.0.1"
+		"@jael-env/aws_secrets_manager": "^0.0.1",
+		"@jael-env/env": "^0.0.1"
 	},
 	"publishConfig": {
 		"access": "public",
